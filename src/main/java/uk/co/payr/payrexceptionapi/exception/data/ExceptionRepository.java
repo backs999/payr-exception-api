@@ -1,9 +1,9 @@
-package uk.co.payr.payrusersapi.user.data;
+package uk.co.payr.payrexceptionapi.exception.data;
 
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.data.repository.PagingAndSortingRepository;
-import uk.co.payr.payrusersapi.user.model.User;
+import uk.co.payr.payrexceptionapi.exception.model.StoredException;
 
-public interface UserRepository extends CrudRepository
-        <User, String>, PagingAndSortingRepository<User, String> {
+public interface ExceptionRepository extends CrudRepository
+        <StoredException, String>, PagingAndSortingRepository<StoredException, String> {
 }

@@ -1,1 +1,9 @@
-spring.application.name=payr-exception-api
+spring:
+  application:
+    name: payr-exception-api
+  kafka:
+    bootstrap-servers: 'broker:29092'
+
+payr:
+  kafka:
+    topic-exception: exception.new

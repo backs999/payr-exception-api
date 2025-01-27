@@ -1,4 +1,4 @@
-package uk.co.payr.payrusersapi.user.config;
+package uk.co.payr.payrexceptionapi.exception.config;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule;

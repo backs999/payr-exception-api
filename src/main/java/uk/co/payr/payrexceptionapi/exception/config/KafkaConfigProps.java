@@ -1,4 +1,4 @@
-package uk.co.payr.payrusersapi.user.config;
+package uk.co.payr.payrexceptionapi.exception.config;
 
 import jakarta.validation.constraints.NotNull;
 import lombok.AllArgsConstructor;
@@ -20,11 +20,5 @@ import org.springframework.validation.annotation.Validated;
 public class KafkaConfigProps {
 
     @NotNull
-    private String topicOrdersNew;
-    @NotNull
-    private String topicOrdersError;
-    @NotNull
-    private String topicNotificationNew;
-    @NotNull
-    private String topicEmailRegister;
+    private String topicException;
 }
